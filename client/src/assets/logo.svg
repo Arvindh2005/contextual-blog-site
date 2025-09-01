@@ -1,0 +1,84 @@
+<svg
+    width="206"
+    height="43"
+    viewBox="0 0 206 43"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-labelledby="logoTitle logoDesc"
+>
+  <title id="logoTitle">Blog AI logo</title>
+  <desc
+        id="logoDesc"
+    >A modern chat-page icon with a pen nib and AI spark, plus a clean wordmark.</desc>
+
+  <!-- Left icon: rounded chat / page -->
+  <g transform="translate(0,3)">
+    <!-- background rounded chat -->
+    <rect x="0" y="0" width="64" height="37" rx="8" fill="#14B8A6" />
+
+    <!-- page lines -->
+    <g
+            transform="translate(12,8)"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        >
+      <path d="M0 3.5h28" />
+      <path d="M0 9.5h24" />
+      <path d="M0 15.5h18" />
+    </g>
+
+    <!-- speech tail -->
+    <path d="M18 37 L26 30 L22 30 L12 37 Z" fill="#14B8A6" />
+
+    <!-- pen nib overlay (white with slight purple stroke) -->
+    <g transform="translate(36,6) rotate(-20 6 6)">
+      <path
+                d="M1 1 L11 1 L11 11 L6 15 L1 11 Z"
+                fill="#fff"
+                stroke="#14B8A6"
+                stroke-width="1"
+            />
+      <circle cx="6" cy="6" r="1.4" fill="#3e33c9" />
+    </g>
+
+    <!-- small AI spark in corner -->
+    <g transform="translate(46,2)">
+      <path
+                d="M6 0.6 L7 4 L10 4.6 L7.4 6.6 L8 10 L6 8.1 L3.8 9.6 L4 6 L1 4.6 L4 3.8 Z"
+                fill="#FFD166"
+                opacity="0.95"
+            />
+    </g>
+  </g>
+
+  <!-- Wordmark to the right -->
+  <g transform="translate(76,0)">
+    <!-- Primary wordmark -->
+    <text
+            x="0"
+            y="27"
+            font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
+            font-size="20"
+            font-weight="600"
+            fill="#0B1220"
+            letter-spacing="0.2"
+        >
+      InkMind
+    </text>
+
+    <!-- subtle descriptor -->
+    <text
+            x="0"
+            y="40"
+            font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
+            font-size="9"
+            fill="#5B6470"
+            letter-spacing="0.1"
+        >
+      create • explore • comment
+    </text>
+  </g>
+</svg>

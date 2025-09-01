@@ -1,0 +1,68 @@
+<svg
+    width="40"
+    height="40"
+    viewBox="0 0 40 40"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-labelledby="iconTitle iconDesc"
+>
+  <title id="iconTitle">Blog AI icon</title>
+  <desc
+        id="iconDesc"
+    >Chat bubble with page lines, pen nib, and a spark to represent AI-powered blogging.</desc>
+
+  <!-- Chat bubble background -->
+  <rect x="2" y="4" width="28" height="22" rx="5" fill="#5044E5" />
+  <!-- speech tail -->
+  <path d="M10 26 L7 32 L15 28 Z" fill="#5044E5" />
+
+  <!-- Page lines -->
+  <line
+        x1="8"
+        y1="10"
+        x2="24"
+        y2="10"
+        stroke="#fff"
+        stroke-width="2"
+        stroke-linecap="round"
+    />
+  <line
+        x1="8"
+        y1="15"
+        x2="22"
+        y2="15"
+        stroke="#fff"
+        stroke-width="2"
+        stroke-linecap="round"
+    />
+  <line
+        x1="8"
+        y1="20"
+        x2="18"
+        y2="20"
+        stroke="#fff"
+        stroke-width="2"
+        stroke-linecap="round"
+    />
+
+  <!-- Pen nib -->
+  <g transform="translate(22,10) rotate(-20 6 6)">
+    <path
+            d="M1 1 L11 1 L11 11 L6 15 L1 11 Z"
+            fill="#fff"
+            stroke="#3e33c9"
+            stroke-width="1"
+        />
+    <circle cx="6" cy="6" r="1.4" fill="#3e33c9" />
+  </g>
+
+  <!-- AI spark -->
+  <g transform="translate(28,2)">
+    <path
+            d="M6 0.6 L7 4 L10 4.6 L7.4 6.6 L8 10 L6 8.1 L3.8 9.6 L4 6 L1 4.6 L4 3.8 Z"
+            fill="#FFD166"
+            opacity="0.95"
+        />
+  </g>
+</svg>
