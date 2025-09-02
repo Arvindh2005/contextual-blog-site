@@ -10,10 +10,10 @@ It not only allows creating and reading blogs, but also adds **AI-driven feature
 - **NSFW Detection** – Detect and block inappropriate **text** and **images** in blogs  
 
 ## Tech Stack
-- **Frontend**: React / Next.js (or your choice)  
+- **Frontend**: React js
 - **Backend**: Node.js + Express + FastAPI  
 - **Database**: MongoDB Atlas  
-- **AI Models**: Hugging Face Transformers (for embeddings, summarization, and generation)  
+- **AI Models**: Hugging Face Model (Falconsai/nsfw_image_detection), Google Gemini
 - **Search Engine**: FAISS for vector similarity search  
 
 ## Setup
