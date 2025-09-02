@@ -9,14 +9,14 @@ It not only allows creating and reading blogs, but also adds **AI-driven feature
 - **Semantic Search** – Search blogs using natural language queries  
 - **NSFW Detection** – Detect and block inappropriate **text** and **images** in blogs  
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Frontend**: React / Next.js (or your choice)  
 - **Backend**: Node.js + Express + FastAPI  
 - **Database**: MongoDB Atlas  
 - **AI Models**: Hugging Face Transformers (for embeddings, summarization, and generation)  
 - **Search Engine**: FAISS for vector similarity search  
 
-## 🚀 Setup
+## Setup
 1. Clone the repository:
    ```bash
    git clone https://github.com/Arvindh2005/contextual-blog-site.git
@@ -41,8 +41,6 @@ It not only allows creating and reading blogs, but also adds **AI-driven feature
    cd client
    npm install
    npm run dev
-
-  
     
 
    
